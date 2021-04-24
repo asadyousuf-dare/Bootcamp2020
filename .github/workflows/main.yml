@@ -24,8 +24,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Install NodeJS
       - uses : actions/setup_node@v2_beta
-      - with: node-version:14
-      -name: install surge
+      - with: node-version:12
+      -name: Install Surge
       run : npm install --g surge
       -name : Run Surge
       run:surge ./Bootcamp2020.surge.sh --token $ {{secrets.SURGE_TOKEN}}
