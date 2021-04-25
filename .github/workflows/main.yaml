@@ -34,9 +34,3 @@ jobs:
       - name: Deploying using surge
         run: surge ./ bootcampwindow.surge.sh --token ${{secrets.SURGE_TOKEN}}
 © 2021 GitHub, Inc.
-
-
-      
-      
-              
-      
